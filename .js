@@ -47,7 +47,7 @@ var swiper = new Swiper('.product-slider', {
         } else {
             $('.prev').removeClass('disabled');
         }
-    });
+    }); /*Siddhant*/
 
     $(".js-fav").on("click", function() {
         $(this).find('.heart').toggleClass("is-active");
